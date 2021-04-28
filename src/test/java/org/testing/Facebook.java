@@ -13,6 +13,9 @@ public class Facebook extends Utility {
 		u.sendText(u.byId("email"), "Tamil");
 		Thread.sleep(3000);
 		u.twoClick(u.byId("email"));
+		u.keyCopy();
+		u.keypaste();
+		
 			
 	}
 
